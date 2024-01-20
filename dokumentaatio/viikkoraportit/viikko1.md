@@ -1,4 +1,4 @@
-#Viikko 1
+# Viikko 1
 Ensimmäisen viikon työnä on luotu github-projekti, luotu projekti, tehty määrittelydokumentaatiot.
 Aiheeseen on perehdytty alustavasti, toistaiseksi pidemmälle menemättä varsinaisessa projektissa, 
 ennen kuin projektin laajuudesta ja laadusta on saatu palautetta. Repositorio on rekisteröity 
