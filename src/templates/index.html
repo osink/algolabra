@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Map generator by Osba</title>
+</head>
+<body>
+
+    <div class="main">
+        {% for row in get_rows() %}
+        {% for tile in get_row_tiles() %}
+            <div class="tile"></div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+</body>
+</html> 
