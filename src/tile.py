@@ -12,11 +12,11 @@ class Tile:
         self.type = 'Unassigned'
         self.content = 'None'
 
-    def changeType(self, type: str):
+    def changetype(self, type: str):
         '''Changes type of tile to type'''
         self.type = type
 
-    def changeContent(self, content: str):
+    def changecontent(self, content: str):
         '''Changes content of tile to content'''
         self.content = content
 
