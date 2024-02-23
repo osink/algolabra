@@ -12,13 +12,20 @@ class Tile:
         self.type = 'Unassigned'
         self.content = 'None'
 
-    def changetype(self, type: str):
+    def getcoords(self):
+        return [self.x,self.y]
+
+    def changetype(self, typ: str):
         '''Changes type of tile to type'''
-        self.type = type
+        self.type = typ
 
     def changecontent(self, content: str):
         '''Changes content of tile to content'''
         self.content = content
+
+    def checktype(self):
+        '''Return type of tile'''
+        return self.type
 
     def __str__(self):
         # Print symbols for given tiles
@@ -30,3 +37,5 @@ class Tile:
             return '$'
         elif self.type == 'Corridor':
             return '£'
+        else:
+            return 'N'
